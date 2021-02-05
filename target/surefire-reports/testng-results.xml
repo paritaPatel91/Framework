@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Crm" duration-ms="35592" started-at="2021-02-01T12:48:07Z" finished-at="2021-02-01T12:48:42Z">
+    <groups>
+    </groups>
+    <test name="ABC" duration-ms="35592" started-at="2021-02-01T12:48:07Z" finished-at="2021-02-01T12:48:42Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="setUp" is-config="true" duration-ms="9272" started-at="2021-02-01T12:48:07Z" finished-at="2021-02-01T12:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="loginPageTitleTest" duration-ms="816" started-at="2021-02-01T12:48:16Z" finished-at="2021-02-01T12:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="teatDown" is-config="true" duration-ms="986" started-at="2021-02-01T12:48:17Z" finished-at="2021-02-01T12:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="setUp" is-config="true" duration-ms="8900" started-at="2021-02-01T12:48:18Z" finished-at="2021-02-01T12:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="crmLogoImageTest" duration-ms="412" started-at="2021-02-01T12:48:27Z" finished-at="2021-02-01T12:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="teatDown" is-config="true" duration-ms="1358" started-at="2021-02-01T12:48:27Z" finished-at="2021-02-01T12:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="setUp" is-config="true" duration-ms="8964" started-at="2021-02-01T12:48:29Z" finished-at="2021-02-01T12:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="loginTest" duration-ms="3597" started-at="2021-02-01T12:48:38Z" finished-at="2021-02-01T12:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5bfa9431]" name="teatDown" is-config="true" duration-ms="1257" started-at="2021-02-01T12:48:41Z" finished-at="2021-02-01T12:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- ABC -->
+  </suite> <!-- Crm -->
+</testng-results>

@@ -8,8 +8,26 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ContactsPage extends TestBase {
 
+    //pagefactory
+
     @FindBy(xpath = "//div[text()='Contacts']")
     WebElement contactsLabel;
+
+    @FindBy(xpath = "//input[@name='first_name']")
+    WebElement firstName;
+
+    @FindBy(xpath = "//input[@name='middle_name']")
+    WebElement middleName;
+
+    @FindBy(xpath = "//input[@name='last_name']")
+    WebElement lastName;
+
+    @FindBy(xpath = "//div[@name='company']/input[@class='search']")
+    WebElement company;
+
+    @FindBy(xpath = "//*[@class='ui linkedin button']")
+    WebElement saveBtn;
+
 
     //Intialization the page Objects
     public ContactsPage() {
@@ -22,6 +40,17 @@ public class ContactsPage extends TestBase {
     public void selectContactByName(String name){//contact checkbox x-path
         driver.findElement(By.xpath("//a[text()='"+name+"']//parent::td//preceding-sibling::td/div[@class='ui fitted read-only checkbox']")).click();
     }
+    public void createNewContact(String ftName,String mdName , String ltName ,String comp ){
+        firstName.sendKeys(ftName);
+        middleName.sendKeys(mdName);
+        lastName.sendKeys(ltName);
+        company.sendKeys(comp);
+        saveBtn.click();
+
+    }
+
+
+
 
 
 

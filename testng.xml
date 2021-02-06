@@ -4,7 +4,10 @@
         <classes>
             <class name="com.crm.qa.testcases.LoginPageTest"></class>
             <class name="com.crm.qa.testcases.HomePageTest"></class>
-            <!-- whatever classes we need to execute we can write here -->
+            <class name="com.crm.qa.testcases.ContactPageTest"></class>
+
+            <!-- To execute all the classs together -->
+            <!-- FOR REGRESSSION TESTING FOR EXAMPLE,WE CAN CREATE ANOTHER FILE FOR SANITY TOO-->
         </classes>
     </test>
 </suite>

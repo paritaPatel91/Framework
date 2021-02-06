@@ -2,14 +2,23 @@ from framework reminder for next week --part 3 pom
 --------------------------------------------------
 * how to create html report :(Intelli-j idea)
 for this method we have to follow atin's concept.
+
 -- go to termianl after creating testcases
+
 -- then run mvn test in the terminal
--- then compolation should be done with build pass
+
+-- then compilation should be done with build pass
+
 -- then it will generate surefile-reports wait for 2 mins then go to index.html,
 and open with browser ,you will see html report over there,
 but if compilation failed then it will not generate report.
+
+--I have noticed if i have create directory resources and put file testng.xml and
+ then run mvn test then build got failed.
+
 -- sometimes if we have corrct x-path but still,It shows unable to locate the element,
 then right click and go to view page source and check there is sometimes frame mainpanel and firstpanel select any one ,
 most of the time we can select mainpanel.
+
 --In Data driven and page object ,all the classe and their testcases are independant of each other,
 not related to each othe.

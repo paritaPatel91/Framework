@@ -10,6 +10,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+/*parita patel*/
+
 
 public class HomePageTest extends TestBase {//using extends to inheritant Testbase class properties
 

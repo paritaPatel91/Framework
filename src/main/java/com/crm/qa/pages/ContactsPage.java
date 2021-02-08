@@ -10,6 +10,7 @@ public class ContactsPage extends TestBase {
 
     //pagefactory
 
+
     @FindBy(xpath = "//div[text()='Contacts']")
     WebElement contactsLabel;
 

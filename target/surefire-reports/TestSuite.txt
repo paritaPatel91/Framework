@@ -1,4 +1,70 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.568 s - in TestSuite
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 690.69 s <<< FAILURE! - in TestSuite
+com.crm.qa.testcases.ContactPageTest.setUp  Time elapsed: 604.293 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PARITAPATEL', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009EC013+3194899]
+	Ordinal0 [0x008D6021+2056225]
+	Ordinal0 [0x0076F608+587272]
+	Ordinal0 [0x007636EC+538348]
+	Ordinal0 [0x00762A6F+535151]
+	Ordinal0 [0x00762E45+536133]
+	Ordinal0 [0x007627A5+534437]
+	Ordinal0 [0x0076BBC9+572361]
+	Ordinal0 [0x00762754+534356]
+	Ordinal0 [0x00763475+537717]
+	Ordinal0 [0x00762A6F+535151]
+	Ordinal0 [0x00762E45+536133]
+	Ordinal0 [0x007627A5+534437]
+	Ordinal0 [0x00769EFE+564990]
+	Ordinal0 [0x00762754+534356]
+	Ordinal0 [0x00763475+537717]
+	Ordinal0 [0x00762A6F+535151]
+	Ordinal0 [0x00762E45+536133]
+	Ordinal0 [0x007627A5+534437]
+	Ordinal0 [0x00768186+557446]
+	Ordinal0 [0x00762754+534356]
+	Ordinal0 [0x00763475+537717]
+	Ordinal0 [0x00762A6F+535151]
+	Ordinal0 [0x00762E45+536133]
+	Ordinal0 [0x007627A5+534437]
+	Ordinal0 [0x007674A7+554151]
+	Ordinal0 [0x00762754+534356]
+	Ordinal0 [0x00763475+537717]
+	Ordinal0 [0x00762A6F+535151]
+	Ordinal0 [0x00762E45+536133]
+	Ordinal0 [0x007627A5+534437]
+	Ordinal0 [0x0075F06C+520300]
+	Ordinal0 [0x00762754+534356]
+	Ordinal0 [0x007625BF+533951]
+	Ordinal0 [0x007623D3+533459]
+	Ordinal0 [0x00770620+591392]
+	Ordinal0 [0x00712A0C+207372]
+	Ordinal0 [0x00711D0D+204045]
+	Ordinal0 [0x0070FC1B+195611]
+	Ordinal0 [0x006F3B7F+80767]
+	Ordinal0 [0x006F4B4E+84814]
+	Ordinal0 [0x006F4AD9+84697]
+	Ordinal0 [0x008ECE64+2149988]
+	GetHandleVerifier [0x00B5BE95+1400773]
+	GetHandleVerifier [0x00B5BB61+1399953]
+	GetHandleVerifier [0x00B631FA+1430314]
+	GetHandleVerifier [0x00B5C69F+1402831]
+	Ordinal0 [0x008E3D61+2112865]
+	Ordinal0 [0x008EE5CB+2155979]
+	Ordinal0 [0x008EE6F5+2156277]
+	Ordinal0 [0x008FF26E+2224750]
+	BaseThreadInitThunk [0x764BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x772D75F4+228]
+	RtlGetAppContainerNamedObjectPath [0x772D75C4+180]
+
+	at com.crm.qa.testcases.ContactPageTest.setUp(ContactPageTest.java:30)
+

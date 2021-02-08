@@ -3,12 +3,15 @@ package com.crm.qa.pages;
 import com.crm.qa.base.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends TestBase {
 
     @FindBy(xpath = "//span[text()='Parita Patel']")
+    @CacheLookup //it will increase the speed of the browser,pick from this cache,
+    // if the page got refresh ,aplication can crush too.so use cachlookip for only element which will not change
     WebElement userNameLabel;
 
     @FindBy(xpath = "//*[@class='users icon']")

@@ -16,9 +16,22 @@ but if compilation failed then it will not generate report.
 --I have noticed if i have create directory resources and put file testng.xml and
  then run mvn test then build got failed.
 
--- sometimes if we have corrct x-path but still,It shows unable to locate the element,
+-- sometimes if we have correct x-path but still,It shows unable to locate the element,
 then right click and go to view page source and check there is sometimes frame mainpanel and firstpanel select any one ,
 most of the time we can select mainpanel.
 
 --In Data driven and page object ,all the classe and their testcases are independant of each other,
 not related to each othe.
+
+--@cashlookup --testng::IQ
+it will improve the performance of the script ,increase the speed of the browser ,
+but use only when they will no change in the coed ,
+otherwise cache can crash up the applcation ,and get error mesage to.
+
+--Webdriver fire event :: to generate selenium action logs
+
+** creating ExtentReport
+--ExtentReport will come with addition of listerner in the testng.xml file
+--Give extact file path there and run testng.xml file
+--There will be Extent.html or whatever file name we give it will generate report over there ,
+-- right click and run with any browser and we will see complete very nice extent report over there
